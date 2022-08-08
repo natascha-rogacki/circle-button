@@ -1,0 +1,21 @@
+<style>
+/* Add "Completed" to like buttons */
+.view-space-in-group--88671 .action-link,
+.view-space-in-group--88671 .action-like.action-item {
+    background-color: var(--brand);
+    padding: 4px 8px;
+    border-radius: 11px;
+    opacity: 1;
+}
+
+.view-space-in-group--88671 .action-link:hover,
+.view-space-in-group--88671 .action-like.action-item:hover {
+    opacity: .8;
+}
+
+.view-space-in-group--88671 .action-link.liked:hover,
+.view-space-in-group--88671 .action-like.liked.action-item:hover {
+    opacity: 1;
+}
+
+.view-sp
